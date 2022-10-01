@@ -4,7 +4,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ cart }) => {
-  // console.log(cart[0].time);
 
   let total = 0;
   for (const player of cart) {
@@ -21,7 +20,6 @@ const Cart = ({ cart }) => {
       progress: undefined,
     });
   };
-  // const handleBreak = (e) => {};
 
   return (
     <div className="cart-container">

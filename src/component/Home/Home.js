@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
+import Cart from "../Cart/Cart";
+import SinglePlayer from "../SinglePlayer/SinglePlayer";
+import { addToDb, getStoredCart } from "../Utilities/localStorage";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faLocationDot,} from "@fortawesome/free-solid-svg-icons";
+import {faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import goodHealth from "../../Image/good-health.jpg";
-import dp from "../../images/dp.png";
+import dp from "../../Image/IMG_20220407_175652.jpg";
 
-import "../Cart/Cart";
-import SinglePlayer from "../SinglePlayer/SinglePlayer";
-import Cart from "../Cart/Cart";
-import { addToDb, getStoredCart } from "../Utilities/localStorage";
 
 const Home = () => {
   const [players, setPlayers] = useState([]);
@@ -71,6 +70,7 @@ const Home = () => {
             <div className="location">
               <span className="icon">
                 <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
+                {/* <FontAwesomeIcon icon={fa-duotone fa-location-dot}></FontAwesomeIcon> */}
               </span>
               <span className="city"> Chattogram, Bangladesh</span>
             </div>
@@ -105,8 +105,7 @@ const Home = () => {
           </div>
         </div>
         {/* ..........................cart.............................. */}
-
-        <Cart cart={cart}></Cart>
+      <Cart cart={cart}></Cart>
       </div>
     </div>
   );

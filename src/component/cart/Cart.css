@@ -1,0 +1,32 @@
+.exercise-time {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cacaca;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.break-time {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cacaca;
+  border-radius: 10px;
+}
+.btn-completed button {
+  width: 100%;
+  height: 50px;
+  background-color: #006eb8;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.btn-completed button:hover {
+  background-color: #0486dc;
+}
+.second {
+  color: rgb(251, 70, 39);
+}
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "111",
+    "title": "Pushups",
+    "age": "15-20",
+    "time":"60s",
+    "ratings": 4,
+    "img": "https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/16:9/w_1280,c_limit/Pushup.jpg",
+    "quality":"good to body"
+  },
+
+  {
+    "id": "222",
+    "title": "Dumbell Row",
+    "age": "20-25",
+    "time":"40s",
+    "ratings": 5,
+    "img": " https://barbend.com/wp-content/uploads/2021/04/BarBend-Article-Image-760-x-427-2021-04-19T170327.648.jpg",
+    "quality":"good to body"
+  },
+
+  {
+    "id": "333",
+    "title": " pull ups",
+    "age": "15-20",
+    "time":"50s",
+    "ratings": 6,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqHdoN6kQx8hECojLBGfbZN96mcu15rSDafaZXp-ZJ8PV3DqLv_KTp28FGi2HynR-Zo0&usqp=CAU",
+    "quality":"good to body"
+  },
+
+  {
+    "id": "444",
+    "title": "sit up",
+    "age": "15-20",
+    "time":"30s",
+    "ratings": 7,
+    "img": "https://images.news18.com/ibnlive/uploads/2022/01/crunches-16432605673x2.jpg?impolicy=website&width=510&height=356",
+    "quality":"good to body"
+  },
+  
+  {
+    "id": "555",
+    "title": "plank",
+    "age": "12-22",
+    "time":"30s",
+    "ratings": 5,
+    "img": "https://blog-images.pharmeasy.in/2021/01/06152556/3.jpg ",
+    "quality":"good to body"
+  },
+
+  {
+    "id": "666",
+    "title": " squats",
+    "age": "20-25",
+    "time":"30s",
+    "ratings": 4,
+    "img": " https://i.insider.com/61ae5c2c35814a00195eaf7a?width=1136&format=jpeg",
+    "quality":"good to body"
+  }
+
+]

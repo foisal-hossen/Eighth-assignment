@@ -1,0 +1,39 @@
+.info-container {
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+}
+.player-info {
+  margin: 10px;
+}
+.player-container img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.btn-addToList {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #006eb8;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.btn-addToList:hover {
+  background-color: #0486dc;
+}
+.name {
+  margin-top: -20px;
+  color: #34495e;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .player-container img {
+    width: 250px;
+    height: 200px;
+  }
+}
+/* //////////////////////////// */

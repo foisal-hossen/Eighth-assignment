@@ -1,3 +1,6 @@
+body{
+  background-color: skyblue;
+}
 .home-container {
   position: relative;
   display: flex;
@@ -6,10 +9,16 @@
 
 .left-side {
   margin-left: 10%;
+  
 }
 
 .builder img {
-  width: 100px;
+  width: 50%;
+  border-radius: 12px;
+  border-top:solid #0882d4;
+  border-right:solid #299be7;
+  border-left:solid #37a5ee;
+  border-bottom:solid #0593f1;
 }
 .title-container {
   position: relative;
@@ -17,12 +26,19 @@
   top: 60px;
 }
 .title-container h2 {
-  color: white;
+  color: navy;
   position: relative;
-  font-size: 50px;
-  margin-left: 10px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
   bottom: 25px;
 }
+.hr{
+  margin-top: 50px;
+  border: 2px solid navy;
+  width: 110%;
+}
+
 .select {
   text-align: center;
   color: white;
@@ -30,8 +46,10 @@
 /* //////////////////Right side///////////////////////////// */
 .right-side {
   position: relative;
+  margin-top: 90px;
+  margin-right: 20px;
   width: 25%;
-  height: 997px;
+  height: 925px;
   padding: 20px;
   border: 0;
   border-radius: 10px;
@@ -41,10 +59,19 @@
   display: flex;
   margin-top: 20px;
 }
+.break{
+  color:navy;
+  font-weight: 700;
+  text-align: center;
+}
 
 .profile-container img {
-  width: 80px;
-  border-radius: 100%;
+  width: 85px;
+  /* border-radius:50%; */
+  border-top-right-radius:50% 50% ;
+  border-top-left-radius:50% 50% ;
+  border-bottom-right-radius:50% 50% ;
+  border-bottom-left-radius:50% 50%;
 }
 .profile-container .author {
   margin-left: 10px;
@@ -74,14 +101,21 @@
   border: 0;
   border-radius: 50%;
   margin-left: 15px;
+  margin-right: 3px;
   font-weight: bold;
 }
 .btn-sec:hover {
-  background-color: #0486dc;
+  background-color:skyblue;
   color: white;
+  border: solid rgb(98, 173, 203);
 }
 .author {
   margin-top: -10px;
+}
+.author p{
+ font-weight: 700;
+ color: #0593f1;
+
 }
 .measure {
   color: rgb(86, 86, 86);

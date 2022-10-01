@@ -24,7 +24,7 @@ const Cart = ({ cart }) => {
   return (
     <div className="cart-container">
       <div>
-        <h3>Exercise details</h3>
+        <h3 className="exercise-details">Exercise details</h3>
       </div>
       <div className="exercise-time">
         <h4>Exercise time</h4>

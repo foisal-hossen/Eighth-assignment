@@ -40,10 +40,10 @@ const Home = () => {
             <img src={goodHealth} alt="" />
           </span>
           <span>
-            <h2>Fitness Club</h2>
+            <h2> GOOD HEALTH</h2>
           </span>
         </div>
-        <hr />
+        <div> <hr className="hr"/></div>
         <h3 className="select">Select today's exercise</h3>
         <div className="player-container">
           {players?.map((player) => (
@@ -65,12 +65,12 @@ const Home = () => {
             <img src={dp} alt="" />
           </div>
           <div className="author">
-            <h3>Mohammad Yeasin Chy</h3>
+            <h3>Foisal Hossen Fahim</h3>
             <p>Web Developer</p>
             <div className="location">
               <span className="icon">
                 <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
-                {/* <FontAwesomeIcon icon={fa-duotone fa-location-dot}></FontAwesomeIcon> */}
+                
               </span>
               <span className="city"> Chattogram, Bangladesh</span>
             </div>
@@ -79,17 +79,17 @@ const Home = () => {
         <div className="body-info">
           <div>
             <h2>
-              54<small>kg</small>
+              55<small> KG</small>
             </h2>
             <h3 className="measure">Weight</h3>
           </div>
           <div>
-            <h2>5.3</h2>
+            <h2> 5.7</h2>
             <h3 className="measure">Height</h3>
           </div>
           <div>
             <h2>
-              24<small>yrs</small>
+              20<small> YEARS</small>
             </h2>
             <h3 className="measure">Age</h3>
           </div>
@@ -105,9 +105,12 @@ const Home = () => {
           </div>
         </div>
         {/* ..........................cart.............................. */}
-      <Cart cart={cart}></Cart>
+
+        <Cart cart={cart}></Cart>
+        {/* <Questions></Questions> */}
       </div>
     </div>
+    
   );
 };
 

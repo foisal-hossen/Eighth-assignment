@@ -34,7 +34,7 @@ const Cart = ({ cart }) => {
         </h4>
       </div>
       <div className="break-time">
-        <h4>Exercise time</h4>
+        <h4>Break time</h4>
         <h4 className="second">0</h4>
       </div>
       <div className="btn-completed">

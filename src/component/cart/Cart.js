@@ -3,12 +3,20 @@ import "./Cart.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Cart = ({ cart }) => {
+let ten = 0;
 
-  let total = 0;
+
+const Cart = ({ cart }) => {
+  
+  let list = 0;
   for (const player of cart) {
-    total = total + parseInt(player.time);
+    list = list + parseInt(player.time);
   }
+  
+  
+
+
+
   const notify = () => {
     toast.success("Congratulations!. You have completed!", {
       position: "top-center",
@@ -28,14 +36,11 @@ const Cart = ({ cart }) => {
       </div>
       <div className="exercise-time">
         <h4>Exercise time</h4>
-        <h4 className="second">
-          {total}
-          <span>s</span>
-        </h4>
+        <h4 className="second"> {list} <span>s</span> </h4>
       </div>
       <div className="break-time">
         <h4>Break time</h4>
-        <h4 className="second">0</h4>
+        <h4 className="second">{ten}<span> s</span></h4>
       </div>
       <div className="btn-completed">
         <button onClick={notify}>Activity Completed</button>

@@ -32,6 +32,15 @@ const Home = () => {
     addToDb(player.time);
   };
 
+  const [value, setaValue] = useState(0)
+  
+    const ten = (a) => {
+      console.log(a);
+      
+
+    }
+  
+
   return (
     <div className="home-container">
       <div className="left-side">
@@ -97,17 +106,17 @@ const Home = () => {
         <h3 className="break">Add a break</h3>
         <div className="btn-container">
           <div>
-            <button className="btn-sec">10s</button>
-            <button className="btn-sec">20s</button>
-            <button className="btn-sec">30s</button>
-            <button className="btn-sec">40s</button>
-            <button className="btn-sec">50s</button>
+            <button onClick={()=> ten('10')} className="btn-sec">10s</button>
+            <button onClick={()=> ten('20')} className="btn-sec">20s</button>
+            <button onClick={()=> ten('30')} className="btn-sec">30s</button>
+            <button onClick={()=> ten('40')} className="btn-sec">40s</button>
+            <button onClick={()=> ten('50')} className="btn-sec">50s</button>
           </div>
         </div>
         {/* ..........................cart.............................. */}
 
-        <Cart cart={cart}></Cart>
-        {/* <Questions></Questions> */}
+        <Cart cart={cart}
+          ten={ten}></Cart>
       </div>
     </div>
     

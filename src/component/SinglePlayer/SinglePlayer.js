@@ -18,8 +18,7 @@ const SinglePlayer = ({ player, handleAddToCart }) => {
             <button
               onClick={() => handleAddToCart(player)}
               className="btn-addToList"
-            >
-              Add to list
+            >Add to list
             </button>
           </div>
         </div>
